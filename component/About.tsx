@@ -63,7 +63,7 @@ export default function About() {
               marginBottom: "20px",
             }}
           >
-            I&apos;m a B.Tech ECE student at JIIT Noida (Class of &apos;27), passionate about building
+            I&apos;m a B.Tech ECE student at JIIT Noida (Batch of &apos;27), passionate about building
             scalable web applications and exploring the intersection of AI and security.
           </p>
           <p
