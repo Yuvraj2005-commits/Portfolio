@@ -273,7 +273,6 @@ function ExperienceCard({
           style={{
             fontFamily: "var(--font-mono)",
             fontSize: "14px",
-            color: "var(--muted)",
             transition: "transform 0.25s, color 0.2s",
             transform: isExpanded ? "rotate(180deg)" : "rotate(0deg)",
             color: isExpanded ? "var(--accent)" : "var(--muted)",
