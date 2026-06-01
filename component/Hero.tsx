@@ -97,7 +97,7 @@ export default function Hero() {
                 onMouseLeave={(e) => { (e.currentTarget as HTMLElement).style.opacity = "1"; (e.currentTarget as HTMLElement).style.transform = "translateY(0)"; }}>
                 View Projects →
               </a>
-              <a href="https://drive.google.com/file/d/1VDpeO-W-G3HudQ5URrzSuic1fqDAWn4d/view?usp=drive_link" target="_blank" rel="noreferrer"
+              <a href="https://drive.google.com/file/d/1tU__9yyp5IbatQdOfs5LwWm_FSnMbqGb/view?usp=drive_link" target="_blank" rel="noreferrer"
                 style={{ fontFamily: "var(--font-mono)", fontSize: "13px", color: "var(--text)", background: "transparent", padding: "13px 24px", border: "1px solid var(--border-hover)", borderRadius: "4px", textDecoration: "none", letterSpacing: "0.04em", transition: "border-color 0.2s, transform 0.2s" }}
                 onMouseEnter={(e) => { (e.currentTarget as HTMLElement).style.borderColor = "rgba(255,255,255,0.3)"; (e.currentTarget as HTMLElement).style.transform = "translateY(-2px)"; }}
                 onMouseLeave={(e) => { (e.currentTarget as HTMLElement).style.borderColor = "var(--border-hover)"; (e.currentTarget as HTMLElement).style.transform = "translateY(0)"; }}>
