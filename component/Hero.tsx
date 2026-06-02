@@ -107,7 +107,7 @@ export default function Hero() {
 
             {/* Stats */}
             <div style={{ display: "flex", gap: "10px", flexWrap: "wrap" }}>
-              {[{ label: "Projects", value: "4+" }, { label: "DSA Problems", value: "220+" }, { label: "Certs", value: "3" }, { label: "CGPA", value: "7.1" }].map((s) => (
+              {[{ label: "Projects", value: "10+" }, { label: "DSA Problems", value: "220+" }, { label: "Certs", value: "3" }, { label: "CGPA", value: "7.2" }].map((s) => (
                 <div key={s.label} style={{ background: "var(--surface)", border: "1px solid var(--border)", borderRadius: "6px", padding: "10px 14px", display: "flex", flexDirection: "column", gap: "2px" }}>
                   <span style={{ fontFamily: "var(--font-display)", fontWeight: 700, fontSize: "20px", color: "var(--accent)", lineHeight: 1 }}>{s.value}</span>
                   <span style={{ fontFamily: "var(--font-mono)", fontSize: "10px", color: "var(--muted)", letterSpacing: "0.05em" }}>{s.label}</span>
