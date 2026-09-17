@@ -9,11 +9,11 @@ const terminalLines = [
   { delay: 2200, text: '{ "frontend": ["React","Redux","Tailwind"] }',  type: "json" },
   { delay: 2500, text: '{ "db":      ["MongoDB","PostgreSQL"] }',       type: "json" },
   { delay: 3000, text: "ls projects/",                               type: "cmd" },
-  { delay: 3700, text: "iNotebook/  CyberMedShield/  UpSkill/  FlightFare/", type: "out" },
+  { delay: 3700, text: "GymSphere/  VaultPay/  iNotebook/  CyberMedShield/  +2 more", type: "out" },
   { delay: 4200, text: "leetcode --streak",                          type: "cmd" },
-  { delay: 4900, text: "✓  220+ problems  ·  LeetCode + GFG",       type: "success" },
+  { delay: 4900, text: "✓  350+ problems  ·  LeetCode + GFG + TUF+", type: "success" },
   { delay: 5400, text: "echo $STATUS",                               type: "cmd" },
-  { delay: 6100, text: "● Interning @ Singularis · Open to work",   type: "success" },
+  { delay: 6100, text: "● Ex-Intern @ Singularis · Open to work",    type: "success" },
 ];
 
 export default function Hero() {
@@ -107,7 +107,7 @@ export default function Hero() {
 
             {/* Stats */}
             <div style={{ display: "flex", gap: "10px", flexWrap: "wrap" }}>
-              {[{ label: "Projects", value: "10+" }, { label: "DSA Problems", value: "220+" }, { label: "Certs", value: "3" }, { label: "CGPA", value: "7.2" }].map((s) => (
+              {[{ label: "Projects", value: "10+" }, { label: "DSA Problems", value: "350+" }, { label: "Internships", value: "1" }, { label: "CGPA", value: "7.1" }].map((s) => (
                 <div key={s.label} style={{ background: "var(--surface)", border: "1px solid var(--border)", borderRadius: "6px", padding: "10px 14px", display: "flex", flexDirection: "column", gap: "2px" }}>
                   <span style={{ fontFamily: "var(--font-display)", fontWeight: 700, fontSize: "20px", color: "var(--accent)", lineHeight: 1 }}>{s.value}</span>
                   <span style={{ fontFamily: "var(--font-mono)", fontSize: "10px", color: "var(--muted)", letterSpacing: "0.05em" }}>{s.label}</span>
@@ -197,7 +197,7 @@ export default function Hero() {
 
             {/* Floating badges */}
             <div style={{ display: "flex", gap: "8px", marginTop: "14px", justifyContent: "flex-end", flexWrap: "wrap" }}>
-              {[{ icon: "⚡", label: "220+ DSA", color: "#FBBF24" }, { icon: "◆", label: "4 Projects", color: "var(--accent)" }, { icon: "✓", label: "3 Certs", color: "#34D399" }].map((b) => (
+              {[{ icon: "⚡", label: "350+ DSA", color: "#FBBF24" }, { icon: "◆", label: "4 Featured Projects", color: "var(--accent)" }, { icon: "✓", label: "1 Internship", color: "#34D399" }].map((b) => (
                 <div key={b.label} style={{ display: "flex", alignItems: "center", gap: "6px", background: "var(--surface)", border: "1px solid var(--border)", borderRadius: "20px", padding: "5px 12px" }}>
                   <span style={{ fontSize: "10px", color: b.color }}>{b.icon}</span>
                   <span style={{ fontFamily: "var(--font-mono)", fontSize: "10px", color: "var(--muted)" }}>{b.label}</span>

@@ -81,9 +81,9 @@ export default function About() {
           </p>
           <div style={{ display: "flex", gap: "12px", flexWrap: "wrap" }}>
             {[
-              { label: "LeetCode", href: "https://leetcode.com", icon: "⚡" },
-              { label: "GitHub", href: "https://github.com", icon: "◆" },
-              { label: "LinkedIn", href: "https://linkedin.com", icon: "▲" },
+              { label: "LeetCode", href: "https://leetcode.com/u/yuvrajprakash2005/", icon: "⚡" },
+              { label: "GitHub", href: "https://github.com/Yuvraj2005-commits", icon: "◆" },
+              { label: "LinkedIn", href: "https://www.linkedin.com/in/yuvraj-prakash-ab67b130b/", icon: "▲" },
             ].map((link) => (
               <a
                 key={link.label}
@@ -232,12 +232,12 @@ export default function About() {
                 marginBottom: "12px",
               }}
             >
-              CERTIFICATIONS
+              ACHIEVEMENTS
             </div>
             {[
-              "Full Stack Development — Udemy",
-              "MongoDB Basics — MongoDB University",
-              "SQL Certification",
+              "350+ DSA problems — LeetCode, GFG & TUF+",
+              "SDE Intern — Singularis Future Serv",
+              "Interests: Backend Dev & ML Security",
             ].map((cert) => (
               <div
                 key={cert}

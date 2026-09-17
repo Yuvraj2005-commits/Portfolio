@@ -110,14 +110,14 @@ export default function Contact() {
             },
             {
               label: "LinkedIn",
-              value: "linkedin.com/in/yuvrajprakash",
-              href: "https://linkedin.com",
+              value: "linkedin.com/in/yuvraj-prakash",
+              href: "https://www.linkedin.com/in/yuvraj-prakash-ab67b130b/",
               icon: "▲",
             },
             {
               label: "GitHub",
-              value: "github.com/yuvrajprakash",
-              href: "https://github.com",
+              value: "github.com/Yuvraj2005-commits",
+              href: "https://github.com/Yuvraj2005-commits",
               icon: "◆",
             },
           ].map((item) => (

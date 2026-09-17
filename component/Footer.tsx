@@ -1,4 +1,5 @@
 export default function Footer() {
+  const year = new Date().getFullYear();
   return (
     <footer
       style={{
@@ -18,7 +19,7 @@ export default function Footer() {
           color: "var(--muted)",
         }}
       >
-        © 2025 Yuvraj Prakash
+        © {year} Yuvraj Prakash
       </span>
       <span
         style={{
